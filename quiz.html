@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz | Human Reproductive System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">Human Reproductive System</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="male.html">Male System</a></li>
+                <li><a href="female.html">Female System</a></li>
+                <li><a href="process.html">Reproduction</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="quiz.html" class="active">Quiz</a></li>
+            </ul>
+
+            <button id="menuButton">☰</button>
+
+        </nav>
+    </header>
+
+
+    <main class="page">
+
+        <section class="page-header">
+            <h2>Test Your Knowledge</h2>
+        </section>
+
+
+        <section class="quiz">
+
+            <h3>Which organ produces sperm cells?</h3>
+
+            <label>
+                <input type="radio" name="question1" value="wrong">
+                Prostate gland
+            </label>
+
+            <label>
+                <input type="radio" name="question1" value="correct">
+                Testes
+            </label>
+
+            <label>
+                <input type="radio" name="question1" value="wrong">
+                Uterus
+            </label>
+
+
+            <button onclick="checkQuiz()">Submit Answer</button>
+
+            <p id="quizResult"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Human Reproductive System Educational Website</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
