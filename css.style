@@ -47,6 +47,12 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+nav a:hover {
+    background-color: white;
+    color: #0066cc;
+    transform: translateY(-2px);
+}
+
 
 .navbar {
     max-width: 1200px;
