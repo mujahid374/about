@@ -14,41 +14,7 @@ body {
 
 
 /* NAVIGATION */
-.header {
-  padding: 20px;
-}
 
-.nav-container {
-  background: #0066cc;
-  border-radius: 0 0 35px 35px;
-  padding: 20px 30px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.nav-container h2 {
-  color: white;
-  margin: 0;
-}
-
-nav {
-  display: flex;
-  gap: 25px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
 
 
 .navbar {
