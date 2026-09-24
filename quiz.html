@@ -78,6 +78,26 @@
         color: #333;
     }
  </style>
+<script>
+    function checkAnswer(correctAnswer) {
+        const selected = document.querySelector('input[name="quiz"]:checked');
+        const result = document.getElementById("result");
+
+        if (!selected) {
+            result.textContent = "Please select an answer first.";
+            result.style.color = "orange";
+            return;
+        }
+
+        if (selected.value === correctAnswer) {
+            result.textContent = "Correct! 🎉";
+            result.style.color = "green";
+        } else {
+            result.textContent = "Incorrect. Try again!";
+            result.style.color = "red";
+        }
+    }
+</script>
 </head>
 
 <body>
