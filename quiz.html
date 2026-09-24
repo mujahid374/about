@@ -121,41 +121,32 @@
 
         </nav>
     </header>
+    <div class="quiz">
+    <h2>Quiz</h2>
 
+    <p>Which organ produces sperm?</p>
 
-    <main class="page">
+    <label>
+        <input type="radio" name="quiz" value="ovary">
+        Ovary
+    </label>
 
-        <section class="page-header">
-            <h2>Test Your Knowledge</h2>
-        </section>
+    <label>
+        <input type="radio" name="quiz" value="testis">
+        Testis
+    </label>
 
+    <label>
+        <input type="radio" name="quiz" value="uterus">
+        Uterus
+    </label>
 
-        <section class="quiz">
+    <br><br>
 
-            <h3>Which organ produces sperm cells?</h3>
+    <button onclick="checkAnswer('testis')">Check Answer</button>
 
-            <label>
-                <input type="radio" name="question1" value="wrong">
-                Prostate gland
-            </label>
-
-            <label>
-                <input type="radio" name="question1" value="correct">
-                Testes
-            </label>
-
-            <label>
-                <input type="radio" name="question1" value="wrong">
-                Uterus
-            </label>
-
-
-            <button onclick="checkQuiz()">Submit Answer</button>
-
-            <p id="quizResult"></p>
-
-        </section>
-
+    <p id="result"></p>
+</div>
     </main>
 
 
